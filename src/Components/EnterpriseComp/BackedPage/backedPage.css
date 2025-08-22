@@ -1,0 +1,83 @@
+.backedPage-container{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-inline: 4rem;
+}
+
+.backedpage-top{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 150px;
+}
+.backedpage-header{
+    font-size: 3.5rem;
+    width: 50%;
+}
+
+.backedpage-para{
+    font-size: 1.2rem;
+    width: 50%;
+    color: grey;
+}
+
+
+.backedpage-down{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    background-color: #000; /* black background */
+    color: white;
+}
+
+.backedpage-grid{
+    /* background: #0a0a0a; */
+    padding: 30px 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease;
+    width: 250px;
+}
+
+.backedpage-grid:hover{
+    box-shadow: 0 0 10px blue;
+}
+
+.icon{
+    padding-bottom: 20px;
+}
+
+.icon-img{
+    width: 50px;
+}
+
+.icon-text{
+    padding-top: 80px;
+    font-size: 1.7rem;
+}
+
+.icon-para{
+    padding-top: 10px;
+    font-size: 1rem;
+    color: grey;
+    line-height: 1.5;
+}
+
+.security-ctn{
+    border: 1px solid grey;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.security-text{
+    padding-inline: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.security-para{
+    padding-inline: 40px;
+    padding-bottom: 30px;
+}
