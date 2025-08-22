@@ -1,14 +1,13 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
-import'./footer.css'
-import webimage from '../../../assets/webflowlogo.png'
-import tiktok from '../../../assets/tikTok.png'
-import twitter from '../../../assets/twitter.png'
-import youtube from '../../../assets/youtube.png'
+import facebook from '../../../assets/facebook.png'
 import instagram from '../../../assets/instagram.png'
 import linkedin from '../../../assets/linkedin.png'
-import facebook from '../../../assets/facebook.png'
+import tikTok from '../../../assets/tikTok.png'
+import twitter from '../../../assets/twitter.png'
 import web from '../../../assets/webFlow.svg'
+import webImage from '../../../assets/webFlow2.png'
+import youtube from '../../../assets/youtube.png'
+import './footer.css'
 
 const Footer = () => {
   return (
@@ -410,7 +409,7 @@ const Footer = () => {
             </div>
 
             <div className='weblogo'>
-                <img src={webimage} className='webImg' alt="" />
+                <img src={webImage} className='webImg' alt="" />
             </div>
 
             <div className='logos'>
@@ -420,7 +419,7 @@ const Footer = () => {
                 <img src={facebook} alt="" className='img' />
                 <img src={linkedin} alt="" className='img' />
                 <img src={instagram} alt="" className='img' />
-                <img src={tiktok} alt="" className='img' />
+                <img src={tikTok} alt="" className='img' />
             </div>
         </div>
     </div>
