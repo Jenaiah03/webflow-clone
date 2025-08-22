@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from "../../../assets/webflow logo.png"
+import logo from "../../../assets/webflowlogo.png"
 import { Link } from 'react-router-dom'
 import './navbar.css'
 

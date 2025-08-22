@@ -22,9 +22,17 @@ const HeroSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData); 
-    alert("Form submitted!");
+ // reset the form inputs
+    
+    setTimeout(() => {
+      console.log({...formData}); 
+      e.target.reset();
+      setFormData({ name: "", email: "", firstName: "", lastName: "", company: "",title: "",country: "",phone: ""}); // reset state 
+      alert("Form submitted!");
+    }, 3000);
   };
+
+
   return (
     <section className='overall'>
       <div className='overall-div'>
@@ -42,7 +50,7 @@ const HeroSection = () => {
         </div>
 
         <div className="right">
-        <form className="form-ctn">
+        <form className="form-ctn" id="myForm" onSubmit={handleSubmit}>
           <div className='form-grid'>
       <div className='form-field'>
         <label htmlFor="" className='form-label'>BUSINESS EMAIL*</label>
@@ -169,7 +177,8 @@ const HeroSection = () => {
           <p className='paragraph-ctn'>By submitting this form,you agree to <br />Webflow's <a href="">Terms of <br />Service</a> and <a href="">Privacy Policy</a></p>
         </div>
 
-        <button className='talk-ctn'>Talk to us</button>
+        <button className='talk-ctn' type="submit" form='myForm' >
+          Talk to us</button>
       </div>
       </div>
       </div>
