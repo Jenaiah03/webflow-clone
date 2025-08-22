@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import facebook from '../../../assets/facebook.png'
 import instagram from '../../../assets/instagram.png'
-import linkedin from '../../../assets/linkedin.png'
+import linkedin from '../../../assets/linked.png'
 import tikTok from '../../../assets/tikTok.png'
 import twitter from '../../../assets/twitter.png'
 import web from '../../../assets/webFlow.svg'
