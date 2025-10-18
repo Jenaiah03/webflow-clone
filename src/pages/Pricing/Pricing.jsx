@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import SiteToggle from '../../Components/PricingComp/SiteToggle/SiteToggle';
-import WorkspaceToggle from '../../components/PricingComp/WorkspaceToggle/WorkspaceToggle';
 import './Pricing.css';
 import FrequentQuestion from '../../Components/PricingComp/FrequentQuestion/FrequentQuestion';
 import Footer from '../../Components/EnterpriseComp/Footer/Footer';
 import Navbar from '../../Components/EnterpriseComp/Navbar/Navbar';
+import WorkSpaceToggle from '../../components/PricingComp/WorkspaceToggle/WorkspaceToggle';
 
 
 const generalData = [
@@ -349,7 +349,7 @@ const Pricing = () => {
                             </button>
                         </div>
                     </div>
-                    <WorkspaceToggle workspacePlans={workspacePlans} workspaceCols={workspaceCols}/>
+                    <WorkSpaceToggle workspacePlans={workspacePlans} workspaceCols={workspaceCols}/>
                 </>
             )}
 
