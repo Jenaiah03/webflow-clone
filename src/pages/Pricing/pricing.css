@@ -1,0 +1,137 @@
+.text-pricing{
+    color: white;
+}
+.main-title{
+    color: white;
+}
+
+.pricing-section {
+    background-color: black;
+    color: white;
+    padding: 4rem;
+    margin-top: 80px;
+}
+.section-header {
+    text-align: left;
+    width: 80%;
+    margin-bottom: 60px;
+}
+
+.main-title {
+    /* font-size: 6rem;
+    font-weight: 800; */
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 1.1;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    background: linear-gradient(90deg, #ffffff 0%, #00aaff 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: -1px;
+}
+
+.site-plans-header {
+    display: flex;
+    gap: 40px;
+    margin-top: 1rem;
+}
+
+
+
+.size-half {
+    font-size: 25px;
+    /* font-size: 2rem;
+    font-weight: 700;
+    color: #aaa;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease; */
+}
+
+.site-title {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.sub-sections {
+    display: flex;
+
+}
+
+.section-divider {
+    margin-top: 1rem;
+}
+
+.sub-sections {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.site-half, .workspace-half {
+    width: 50%;
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    /* transition: background 0.3s ease; */
+}
+
+.active-half {
+    background: #007BFF; /* blue highlight */
+    color: #fff;
+}
+
+
+/* Toggle Buttons */
+.toggle-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.toggle-buttons button {
+  padding: 0.6rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: lightblue;
+  color: black;
+  transition: all 0.2s ease-in-out;
+}
+
+.toggle-buttons button:hover {
+  background-color: #d1d1d1;
+}
+
+.toggle-buttons .active {
+  background-color: #2563eb; /* bright blue */
+  color: white;
+}
+
+.toggle-one{
+    background-color: #2563eb;
+}
+
+.question-overall{
+    margin-top: 3rem;
+}
+
+.head-text{
+    font-size: 3rem;
+    font-weight: 700;
+    width: 40%;
+    margin-bottom: 60px;
+}
+
+.footer-Controls{
+    padding: 2rem;
+}
+
+.navbar-system{
+    background-color: black;
+}

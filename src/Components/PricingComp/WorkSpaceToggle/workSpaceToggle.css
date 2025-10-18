@@ -1,0 +1,142 @@
+.card-grid {
+background-color: black;
+  display: grid;
+  gap: 1rem;
+  /* width: 100%; */
+}
+
+.card-grid.four-cols {
+  background-color: black;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.card-grid.three-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+  background: #0d0d0d;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  width: 280px;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+
+}
+
+.card:hover {
+  /* transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  overflow: hidden; */
+
+  border-color: #0073e6;
+  box-shadow: 0 0 20px rgba(0, 115, 230, 0.2);
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.labels{
+  padding-bottom: 10px;
+}
+
+.label {
+  background-color: #2563eb;
+  color: white;
+  padding: 4px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.price {
+  /* font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px; */
+
+  background: #0073e6;
+  color: #fff;
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}
+
+.desc {
+  /* color: #ccc;
+  font-size: 0.95rem;
+  margin-bottom: 20px; */
+  color: #aaa;
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card-btn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.features li {
+  margin-bottom: 8px;
+  padding-left: 20px;
+  position: relative;
+  font-size: 14px;
+  color: #bbb;
+}
+
+.features li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.heading-guard {
+  display: flex;
+  gap: 2rem;
+}
+
+.workspace-badge {
+  padding: 1px 2px;
+  font-size: 0.75rem;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid gray;
+  text-transform: uppercase;
+}
+
+.publishing-head{
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem;
+  color: #fff;
+}
+
+

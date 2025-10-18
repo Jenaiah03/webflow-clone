@@ -422,6 +422,8 @@ const Footer = () => {
                 <img src={tikTok} alt="" className='img' />
             </div>
         </div>
+
+        
     </div>
   )
 }
