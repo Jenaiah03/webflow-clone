@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import SiteToggle from '../../Components/PricingComp/SiteToggle/SiteToggle';
-import './pricing.css';
+import "./pricing.css"
 import FrequentQuestion from '../../Components/PricingComp/FrequentQuestion/FrequentQuestion';
 import Footer from '../../Components/EnterpriseComp/Footer/Footer';
 import Navbar from '../../Components/EnterpriseComp/Navbar/Navbar';
