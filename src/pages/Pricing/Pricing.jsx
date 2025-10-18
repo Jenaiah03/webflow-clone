@@ -4,7 +4,7 @@ import './Pricing.css';
 import FrequentQuestion from '../../Components/PricingComp/FrequentQuestion/FrequentQuestion';
 import Footer from '../../Components/EnterpriseComp/Footer/Footer';
 import Navbar from '../../Components/EnterpriseComp/Navbar/Navbar';
-import WorkSpaceToggle from '../../components/PricingComp/WorkspaceToggle/WorkspaceToggle';
+import WorkSpaceToggle from '../../Components/PricingComp/WorkspaceToggle/WorkspaceToggle';
 
 
 const generalData = [
